@@ -55,8 +55,10 @@ CloudStartOps demonstrates practical DevOps automation best practices and provid
 
 The diagram below, built using Eraser, represents the high-level architecture of **CloudStartOps** showing how AWS services interact to provide automated provisioning, secure networking, and proactive monitoring.
 
-![CloudStartOps Architecture](./architecture/cloudstartops-architecture.png)
-
 <img width="1437" height="676" alt="Screenshot 2025-12-10 at 17 00 56" src="https://github.com/user-attachments/assets/7093aefd-52c9-4c2b-b2fc-1cfb6188aea4" />
 
 ---
+
+## 📝 6. Docs Overview
+
+![CloudStartOps Docs](./docs/overview.md)
