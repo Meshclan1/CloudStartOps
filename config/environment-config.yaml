@@ -1,0 +1,9 @@
+environment: "dev"
+
+vpc:
+  cidr: "10.0.0.0/16"
+
+monitoring:
+  cpu_threshold: 80
+  alert_emails:
+    - "ops@example.com"

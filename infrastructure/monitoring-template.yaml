@@ -1,0 +1,33 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Description: CloudStartOps Monitoring Stack
+
+Parameters:
+  EnvironmentName:
+    Type: String
+  NotificationEmail:
+    Type: String
+
+Resources:
+  AlarmTopic:
+    Type: AWS::SNS::Topic
+
+  CPUHighAlarm:
+    Type: AWS::CloudWatch::Alarm
+    Properties:
+      AlarmDescription: "High CPU utilisation"
+      Namespace: AWS/EC2
+      MetricName: CPUUtilization
+      Threshold: 80
+      ComparisonOperator: GreaterThanThreshold
+      EvaluationPeriods: 2
+      Statistic: Average
+      Period: 60
+      AlarmActions:
+        - !Ref AlarmTopic
+
+  Subscription:
+    Type: AWS::SNS::Subscription
+    Properties:
+      Protocol: email
+      Endpoint: !Ref NotificationEmail
+      TopicArn: !Ref AlarmTopic
