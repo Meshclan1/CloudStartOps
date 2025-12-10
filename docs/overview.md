@@ -20,7 +20,7 @@ _The design emphasises ease of use, maintainability, and operational visibility,
 
 The diagram below, built using Eraser, represents the high-level architecture of **CloudStartOps** showing how AWS services interact to provide automated provisioning, secure networking, and proactive monitoring.
 
-![CloudStartOps Architecture](architecture/cloudstartops-architecture.png)
+![CloudStartOps Architecture](../architecture/cloudstartops-architecture.png)
 
 ---
 
