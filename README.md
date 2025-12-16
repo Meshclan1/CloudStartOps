@@ -4,6 +4,12 @@
 
 ![CloudStartOps Docs](./docs/overview.md)
 
+Architecture High-Level Diagram Layout
+
+The diagram below represents the high-level architecture of **CloudStartOps** showing how AWS services interact to provide automated provisioning, secure networking, and proactive monitoring.
+
+<img width="1437" height="676" alt="Screenshot 2025-12-10 at 17 00 56" src="https://github.com/user-attachments/assets/7093aefd-52c9-4c2b-b2fc-1cfb6188aea4" />
+
 ---
 
 ## 🚩 1. Problem
@@ -55,13 +61,5 @@ CloudStartOps achieved measurable improvements:
 - Optimised NAT and logging configurations reduced AWS spend by **~£30 per environment monthly**
 
 CloudStartOps demonstrates practical DevOps automation best practices and provides scalable foundations for growing SaaS teams.
-
----
-
-## 🖼️ 5. Architecture High-Level Diagram Layout
-
-The diagram below, built using Eraser, represents the high-level architecture of **CloudStartOps** showing how AWS services interact to provide automated provisioning, secure networking, and proactive monitoring.
-
-<img width="1437" height="676" alt="Screenshot 2025-12-10 at 17 00 56" src="https://github.com/user-attachments/assets/7093aefd-52c9-4c2b-b2fc-1cfb6188aea4" />
 
 ---
